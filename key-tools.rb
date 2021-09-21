@@ -6,6 +6,8 @@ class KeyTools < Formula
   version '0.1'
 
   depends_on "fftw"
+  depends_on "sox"
+  depends_on "id3v2"
 
   patch :DATA
 
